@@ -9,7 +9,7 @@ high_score = 0
 
 wn = turtle.Screen()
 wn.title("EarthWorm Game by Group 3 ")
-wn.bgcolor("white")
+wn.bgcolor("black")
 wn.setup(width=600, height=600)
 wn.tracer(0) # Turns off the screen updates
 
@@ -17,7 +17,7 @@ wn.tracer(0) # Turns off the screen updates
 head = turtle.Turtle()
 head.speed(0)
 head.shape("square")
-head.color("black")
+head.color("white")
 head.penup()
 head.goto(0,0)
 head.direction = "stop"
